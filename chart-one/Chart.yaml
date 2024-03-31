@@ -2,6 +2,15 @@ apiVersion: v2
 name: chart-one
 description: A Helm chart for Kubernetes
 
+keywords:
+  - "custom-chart"
+  - "web-app"
+
+maintainers:
+  - name: "Rich"
+    email: "rich@datarich.org"
+  
+
 # A chart can be either an 'application' or a 'library' chart.
 #
 # Application charts are a collection of templates that can be packaged into versioned archives
